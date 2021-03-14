@@ -1,0 +1,23 @@
+{
+  "name": "lego-factory",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js",
+    "dev": "webpack --config webpack.development.config.js"
+  },
+  "author": "Guy Behar",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
